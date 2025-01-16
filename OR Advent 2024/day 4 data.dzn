@@ -1,0 +1,9 @@
+T = 4; % number of teachers
+S = 20; % number of subjects
+C = 4; % number of classes
+R =  4; % number of rooms available
+P = 30; % number of periods
+
+REQUIREMENTS = 120;
+
+requirements_matrix = array3d(1..4, 1..4, 1..4, [2, 2, 1, 2, 1, 1, 1, 2, 1, 1, 1, 6, 2, 2, 3, 2, 2, 5, 1, 2, 0, 4, 3, 2, 1, 2, 1, 0, 2, 2, 1, 2, 2, 1, 1, 2, 0, 0, 5, 1, 2, 1, 4, 1, 6, 1, 2, 1, 3, 1, 2, 1, 1, 4, 1, 4, 3, 3, 2, 1, 2, 0, 1, 1]);
